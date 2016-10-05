@@ -1,0 +1,68 @@
+/* Homework 10082016_01*/
+/* To try to keep things ordered */
+/* First Geometry/Shape Info */
+/* Second Cosmetic Info */
+/* Third Font Info */
+* {
+  box-sizing: border-box;
+  background-color: #ccc; 
+  text-align: center;
+  font-size: 16px;
+  font-color: #ccc;
+}
+
+body {
+	border-style: dashed; /*Remove later*/
+	line-height: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+header, nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+section, aside{
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+	border: 2px solid #eee;
+}
+section {
+	width: 64%;
+	margin-right: 2%;
+	float: left;
+}
+aside {
+	width: 31%;
+	margin-left: 2%;
+	float: right;
+}
+article {
+	border-style: dotted; 
+	height: 130;
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	float: left;
+}
+p {
+	width: 90%;
+	height: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+footer {
+	clear: both;
+	background: #fff;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+
+
