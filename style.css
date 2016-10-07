@@ -5,29 +5,40 @@
 /* Third Font Info */
 * {
   box-sizing: border-box;
-  background-color: #ccc; 
+  background-color: #777;    /* 3a instructions*/
   text-align: center;
   font-size: 16px;
-  font-color: #ccc;
+  /*font-color: #777;*/
 }
 
 body {
-	border-style: dashed; /*Remove later*/
+	/*border-style: dashed;*/ /*Remove later*/
 	line-height: 40px;
 	margin-left: 100px;
 	margin-right: 100px;
+	color: #ebebeb; /* 3b instructions - font color*/
 }
-header, nav {
+header, nav, footer {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background: #fff;
 }
+footer {
+	clear: both;
+}
+.mcontent {
+	clear: both;
+	width: 100%;
+	overflow: auto;
+	/*border-style: dashed;*/
+}
 section, aside{
-	height: 200px;
+	/*height: 200px;*/
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background: #fff;
 	border: 2px solid #eee;
+	overflow:auto;
 }
 section {
 	width: 64%;
@@ -40,7 +51,7 @@ aside {
 	float: right;
 }
 article {
-	border-style: dotted; 
+	/*border-style: dotted;*/ 
 	height: 130;
 	width: 96%;
 	margin-left: 2%;
@@ -50,18 +61,11 @@ article {
 }
 p {
 	width: 90%;
-	height: 40px;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background: #fff;
-}
-footer {
-	clear: both;
-	background: #fff;
-	margin-top: 10px;
-	margin-bottom: 100px;
 }
 
 
